@@ -1,0 +1,68 @@
+name: Pull Request
+
+on: 
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  typecheck:
+    name: Type check src/*/solutions
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Type check src/*/solutions
+      run: |
+        npm ci
+        npm run type-check:solutions
+      env:
+        CI: true
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Check linting
+      run: |
+        npm ci
+        npm run lint
+      env:
+        CI: true
+  formatting:
+    name: Code formatting
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Check code formatting
+      run: |
+        npm ci
+        npm run format:check
+      env:
+        CI: true
