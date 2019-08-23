@@ -14,6 +14,6 @@ function getValue(type: TypeA | TypeB) {
   return type.b;
 }
 
-const result = getValue({ a: "foo" });
+const result = getValue({ a: 'foo' });
 
 export {};

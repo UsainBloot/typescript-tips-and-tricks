@@ -7,9 +7,9 @@ interface TypeB {
 }
 
 function filterOnlyA(all: (TypeA | TypeB)[]): TypeA[] {
-  return all.filter(single => "a" in single);
+  return all.filter((single) => 'a' in single);
 }
 
-const result = filterOnlyA([{ a: "foo" }, { b: "bar" }]);
+const result = filterOnlyA([{ a: 'foo' }, { b: 'bar' }]);
 
 export {};

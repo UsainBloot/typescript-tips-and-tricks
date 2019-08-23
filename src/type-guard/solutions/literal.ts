@@ -1,15 +1,15 @@
 interface Dog {
-  type: "dog";
+  type: 'dog';
   woof: () => void;
 }
 
 interface Cat {
-  type: "cat";
+  type: 'cat';
   meow: () => void;
 }
 
 function makeNoise(animal: Dog | Cat) {
-  if (animal.type === "dog") {
+  if (animal.type === 'dog') {
     animal.woof();
     return;
   }

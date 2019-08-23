@@ -3,6 +3,7 @@
 Type Guards allow you to narrow down the type of an object within a conditional block.
 
 ## Using this Repository
+
 All examples in this current directory level all **error**, their **solutions** can be seen in the [solutions directory](./src/type-guard/solutions).
 
 To try the code snippets online you can paste them into the [Typescript Playground](https://www.typescriptlang.org/play).

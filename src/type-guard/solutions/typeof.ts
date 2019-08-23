@@ -1,5 +1,5 @@
 function plusOne(input: string | number) {
-  if (typeof input === "string") {
+  if (typeof input === 'string') {
     return parseInt(input) + 1;
   }
 
