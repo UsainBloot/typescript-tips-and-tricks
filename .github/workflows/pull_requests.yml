@@ -7,7 +7,7 @@ on:
 
 jobs:
   typecheck:
-    name: Type check src/*/solutions
+    name: Type check
     runs-on: ubuntu-latest
 
     strategy:
@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Type check src/*/solutions
+    - name: Type check
       run: |
         npm ci
         npm run type-check:solutions
