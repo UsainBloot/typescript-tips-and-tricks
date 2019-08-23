@@ -6,7 +6,7 @@ on:
     - master
 
 jobs:
-  test:
+  typecheck:
     name: Type check solutions
     runs-on: ubuntu-latest
 
@@ -26,7 +26,7 @@ jobs:
         npm run type-check:solutions
       env:
         CI: true
-  test:
+  lint:
     name: Lint
     runs-on: ubuntu-latest
 
@@ -46,7 +46,7 @@ jobs:
         npm run lint
       env:
         CI: true
-  test:
+  formatting:
     name: Code formatting
     runs-on: ubuntu-latest
 
