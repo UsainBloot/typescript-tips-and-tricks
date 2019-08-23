@@ -10,7 +10,7 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 
 ## Contents
 
-- [Type Guard](./src/type-guard/README.md)
+- [Type Guarding](./src/type-guarding/README.md)
 
 ## Resources
 
