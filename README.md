@@ -2,11 +2,17 @@
 
 Code examples for multiple Typescript tips and tricks.
 
-## Resources
+## Using This Repository
 
-- [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html#user-defined-type-guards)
-- [basarat/typescript-book](https://basarat.gitbooks.io/typescript/)
+All examples found immediately in a src directory will **error**. Their **solutions** can be seen in the `./solutions` directory.
+
+To try the code snippets online you can paste them into the [Typescript Playground](https://www.typescriptlang.org/play).
 
 ## Contents
 
 - [Type Guard](./src/type-guard/README.md)
+
+## Resources
+
+- [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html#user-defined-type-guards)
+- [basarat/typescript-book](https://basarat.gitbooks.io/typescript/)
