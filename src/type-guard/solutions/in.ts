@@ -7,13 +7,13 @@ interface TypeB {
 }
 
 function getValue(type: TypeA | TypeB) {
-  if ("a" in type) {
+  if ('a' in type) {
     return type.a;
   }
 
   return type.b;
 }
 
-const result = getValue({ a: "foo" });
+const result = getValue({ a: 'foo' });
 
 export {};

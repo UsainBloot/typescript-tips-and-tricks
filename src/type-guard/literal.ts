@@ -9,7 +9,7 @@ interface Cat {
 }
 
 function makeNoise(animal: Dog | Cat) {
-  if (animal.type === "dog") {
+  if (animal.type === 'dog') {
     animal.woof();
     return;
   }
