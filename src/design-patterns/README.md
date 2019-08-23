@@ -23,6 +23,7 @@ All documentation is from [`refactoring.guru`](https://refactoring.guru/design-p
   - [Proxy](https://refactoring.guru/design-patterns/proxy/typescript/example#lang-features)
 
 - Behavioural Patterns
+
   - [Chain Of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility/typescript/example#lang-features)
   - [Command](https://refactoring.guru/design-patterns/command/typescript/example#lang-features)
   - [Iterator](https://refactoring.guru/design-patterns/iterator/typescript/example#lang-features)
