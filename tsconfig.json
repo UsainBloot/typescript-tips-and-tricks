@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "target": "es2016",
+    "moduleResolution": "node",
+    "noEmit": true
+  }
+}

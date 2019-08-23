@@ -1,0 +1,39 @@
+{
+  "name": "typescript-tips-and-tricks",
+  "version": "1.0.0",
+  "description": "Typescript tips and tricks code examples",
+  "scripts": {
+    "test": "npm run type-check:solutions",
+    "posttest": "npm run lint && npm run format:check",
+    "type-check": "tsc --noEmit",
+    "type-check:solutions": "tsc --noEmit src/*/solutions/*.ts",
+    "lint": "eslint . --ext=ts --ext=js",
+    "format": "prettier --loglevel warn --write '**/*.{ts,js,json,md}'",
+    "format:check": "prettier --check '**/*.{ts,js,json,md}'"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Jack Palmer <jack.palmer@bbc.co.uk>",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": [
+      "iplayer-ts",
+      "prettier",
+      "prettier/@typescript-eslint"
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "@typescript-eslint/no-unused-vars": 0
+    }
+  },
+  "devDependencies": {
+    "eslint": "^6.2.1",
+    "eslint-config-iplayer-ts": "^1.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  }
+}
