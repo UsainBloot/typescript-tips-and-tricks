@@ -8,9 +8,9 @@ All examples in this current directory level all **error**, their **solutions** 
 
 To try the code snippets online you can paste them into the [Typescript Playground](https://www.typescriptlang.org/play).
 
-## Types of Guarding
+## Types of Literal Types
 
-- [`example`](./example.ts)
+- `example`
   - [_Error_](./example.ts)
   - [_Solution_](./solutions/example.ts)
 - `inference`
