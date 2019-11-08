@@ -10,8 +10,10 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 
 ## Contents
 
-- [Type Guarding](./src/type-guarding/README.md)
 - [Design Patterns](./src/design-patterns/README.md)
+- [Generics](./src/generics/README.md)
+- [Literal Types](./src/literal-types/README.md)
+- [Type Guarding](./src/type-guarding/README.md)
 
 ## Resources
 

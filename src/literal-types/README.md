@@ -10,10 +10,10 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 
 ## Types of Literal Types
 
-- `example`
+- Example
   - [_Error_](./example.ts)
   - [_Solution_](./solutions/example.ts)
-- `inference`
+- Inference
   - [_Error_](./inference.ts)
   - [_Solution_](./solutions/inference.ts)
 

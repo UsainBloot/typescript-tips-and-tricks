@@ -10,10 +10,10 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 
 ## Types of Generics
 
-- `inference`
+- Inference
   - [_Error_](./inference.ts)
   - [_Solution_](./solutions/inference.ts)
-- `extendding`
+- Extending
   - [_Error_](./extending.ts)
   - [_Solution_](./solutions/extending.ts)
 
