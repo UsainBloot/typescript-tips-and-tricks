@@ -1,7 +1,7 @@
 function buildHandler<T extends Event>(callback: (cbEvent: T) => void) {
-  return function (event: T) {
+  return function(event: T) {
     callback(event);
-  }
+  };
 }
 
 const onClick = buildHandler<MouseEvent>((event) => {

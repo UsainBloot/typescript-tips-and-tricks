@@ -1,7 +1,7 @@
 function buildHandler(callback: (event: Event) => void) {
-  return function (event: Event) {
+  return function(event: Event) {
     callback(event);
-  }
+  };
 }
 const onClick = buildHandler((event) => {
   event.relatedTarget; // Only on mouse events
