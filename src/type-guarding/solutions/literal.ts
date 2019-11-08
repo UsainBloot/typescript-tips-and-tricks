@@ -1,12 +1,12 @@
-interface Dog {
+type Dog = {
   type: 'dog';
   woof: () => void;
-}
+};
 
-interface Cat {
+type Cat = {
   type: 'cat';
   meow: () => void;
-}
+};
 
 function makeNoise(animal: Dog | Cat) {
   if (animal.type === 'dog') {

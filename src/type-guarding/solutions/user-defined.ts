@@ -1,12 +1,12 @@
 // https://www.typescriptlang.org/docs/handbook/advanced-types.html#user-defined-type-guards
 
-interface TypeA {
+type TypeA = {
   a: string;
-}
+};
 
-interface TypeB {
+type TypeB = {
   b: string;
-}
+};
 
 type TypeAorTypeB = TypeA | TypeB;
 

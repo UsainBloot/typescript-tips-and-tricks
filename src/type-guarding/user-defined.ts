@@ -1,10 +1,10 @@
-interface TypeA {
+type TypeA = {
   a: string;
-}
+};
 
-interface TypeB {
+type TypeB = {
   b: string;
-}
+};
 
 function filterOnlyA(all: (TypeA | TypeB)[]): TypeA[] {
   return all.filter((single) => 'a' in single);

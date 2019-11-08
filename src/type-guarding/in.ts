@@ -1,10 +1,10 @@
-interface TypeA {
+type TypeA = {
   a: string;
-}
+};
 
-interface TypeB {
+type TypeB = {
   b: string;
-}
+};
 
 function getValue(type: TypeA | TypeB) {
   if (type.a !== undefined) {
