@@ -23,4 +23,4 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 ## Resources
 
 - [Generics - _Typescript Handbook_](https://www.typescriptlang.org/docs/handbook/generics.html)
-- [Generics - _basarat/typescript-book_](https://basarat.gitbooks.io/typescript/docs/types/generics.html)
+- [Generics - _basarat/typescript-book_](https://basarat.gitbook.io/typescript/type-system/generics)

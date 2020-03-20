@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "target": "es2016",
     "moduleResolution": "node",
     "noEmit": true
-  }
+  },
+  "include": ["src/*/solutions/**/*"]
 }

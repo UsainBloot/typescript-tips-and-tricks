@@ -5,8 +5,8 @@
   "scripts": {
     "test": "npm run type-check:solutions",
     "posttest": "npm run lint && npm run format:check",
-    "type-check": "tsc --noEmit",
-    "type-check:solutions": "tsc --noEmit src/*/solutions/*.ts",
+    "type-check": "tsc --noEmit src/**/*.ts",
+    "type-check:solutions": "tsc --noEmit",
     "lint": "eslint . --ext=ts",
     "format": "prettier --loglevel warn --write '**/*.{ts,md}'",
     "format:check": "prettier --check '**/*.{ts,md}'"
