@@ -13,6 +13,9 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 - Alias
   - [_Inefficient_](./alias.ts)
   - [_Solution_](./solutions/alias.ts)
+- Conditional
+  - [_Inefficient_](./conditional.ts)
+  - [_Solution_](./solutions/conditional.ts)
 - Intersection
   - [_Inefficient_](./intersection.ts)
   - [_Solution_](./solutions/intersection.ts)
