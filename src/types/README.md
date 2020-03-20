@@ -16,6 +16,9 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 - Intersection
   - [_Inefficient_](./intersection.ts)
   - [_Solution_](./solutions/intersection.ts)
+- Mapped
+  - [_Inefficient_](./mapped.ts)
+  - [_Solution_](./solutions/mapped.ts)
 - Tuple
   - [_Inefficient_](./tuple.ts)
   - [_Solution_](./solutions/tuple.ts)

@@ -1,6 +1,7 @@
 interface Person {
   name: string;
-  // age: number
+  age: number;
+  // height: string;
 }
 
 interface Details {
@@ -9,4 +10,4 @@ interface Details {
 
 type Contact = Person & Details;
 
-const contact: Contact = { name: 'Foo', phone: '111-111-111' };
+const contact: Contact = { name: 'John', age: 20, phone: '111-111-111' };
