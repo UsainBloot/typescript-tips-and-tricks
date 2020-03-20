@@ -21,4 +21,4 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 
 - [String Literal Types - _Typescript Handbook_](https://www.typescriptlang.org/docs/handbook/advanced-types.html#string-literal-types)
 - [Numerical Literal Types - _Typescript Handbook_](https://www.typescriptlang.org/docs/handbook/advanced-types.html#numeric-literal-types)
-- [Literal Types - _basarat/typescript-book_](https://basarat.gitbooks.io/typescript/docs/types/literal-types.html)
+- [Literal Types - _basarat/typescript-book_](https://basarat.gitbook.io/typescript/type-system/literal-types)

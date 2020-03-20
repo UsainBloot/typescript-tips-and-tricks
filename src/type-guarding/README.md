@@ -30,4 +30,4 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 ## Resources
 
 - [Type Guards and Differentiating Types - _Typescript Handbook_](https://www.typescriptlang.org/docs/handbook/advanced-types.html#type-guards-and-differentiating-types)
-- [Type Guard - _basarat/typescript-book_](https://basarat.gitbooks.io/typescript/docs/types/typeGuard.html)
+- [Type Guard - _basarat/typescript-book_](https://basarat.gitbook.io/typescript/type-system/typeguard)
