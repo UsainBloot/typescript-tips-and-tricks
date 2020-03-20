@@ -10,6 +10,9 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 
 ## Types of Guarding
 
+- Alias
+  - [_Inefficient_](./alias.ts)
+  - [_Solution_](./solutions/alias.ts)
 - Intersection
   - [_Inefficient_](./intersection.ts)
   - [_Solution_](./solutions/intersection.ts)
