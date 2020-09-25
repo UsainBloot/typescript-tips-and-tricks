@@ -18,5 +18,5 @@ To try the code snippets online you can paste them into the [Typescript Playgrou
 
 ## Resources
 
-- [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html#user-defined-type-guards)
+- [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/)
 - [basarat/typescript-book](https://basarat.gitbooks.io/typescript/)
